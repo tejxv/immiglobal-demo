@@ -7400,6 +7400,13 @@ padding: 10px;
   font-size: 1.2em;
   margin: 1em 1em;
 }
+
+.navbar-light .navbar-toggler {
+  transform: scale(1.2);
+}
+.navbar-nav {
+  background: azure;
+}
 @media (min-width: 768px) { 
   .dropdown:hover .dropdown-menu {
       display: block;
@@ -7423,5 +7430,182 @@ padding: 10px;
         display: grid;
         grid-template-columns: auto;
         grid-gap: 10px;
-    }
+    } 
+    .grid-service {
+      display: block;
+      width: 95%;
+  }
       }
+
+/* swiper */
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* MODAL CSS */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #888;
+  width: 100%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.form{
+  display: flex !important;
+    align-items: flex-start !important;
+}
+.form form{
+  width: 100%;
+  justify-content: center;
+}
+.form form ul{
+  padding: 0px !important;
+  
+}
+.form form > input{
+  outline: none;
+  border: none;
+  width: 90% ;
+}
+.form form ul li{
+  text-decoration: none;
+  list-style-type: none;
+}
+.forminput{
+  width: 80%;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0 5px 0 5px;
+    
+}
+.form form ul li select{
+  height: 35px;
+  border: none;
+  width: 90px;
+}
+.formPhone{
+  height: 35px;
+    width: 54%;
+    border: none;
+    border-bottom: 1px solid;
+}
+.modal-header1{
+  border-bottom: none !important;
+}
+.close1{
+  border-radius: 50% !important;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s all ease;
+  outline: none;
+}
+.close1 span{
+  transition: 0.3s all ease;
+}
+.close1:hover{
+  background-color: red!important;
+  color: white !important;
+}
+.close1:hover span{
+  color: white !important;
+  outline: none;
+}
+.enquire-about label{
+  font-size: 1.1em;
+}
+.enquire-about select{
+  width: 45%;
+  border: none;
+  height: 35px;
+  border-bottom: 1px solid;
+  margin-left: 3px;
+}
+.enquire-about select option{
+  width: 45%;
+  border: none;
+  height: 35px;
+  border-bottom: 1px solid;
+  margin-left: 3px;
+}
+.para1{
+  padding-left: 18px;
+  color: grey;
+  font-size: 1.25em;
+}
+.modal-footer{
+  justify-content: center !important;
+  border-top: 0px !important;
+}
+.modal-header1 h5{
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+.sub-button{
+  margin-top: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
