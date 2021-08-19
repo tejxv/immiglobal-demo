@@ -296,7 +296,7 @@ h6 a {
 h1 {
   font-size: 36px;
   line-height: 70px;
-  padding: 0 22px;
+  padding: 0 0;
   letter-spacing: 1px;
   margin-bottom: 0px;
 }
@@ -7791,4 +7791,31 @@ padding: 10px;
 }
 button:active {
   outline: none;
+}
+
+.swiper-slide::before {
+  background: #000 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.textOverlay {
+  position: absolute;
+  pointer-events: none;
+  text-align: left;
+}
+.textOverlay h1 {
+  color: white;
+}
+.textOverlay h4 {
+  color: white;
+}
+.textOverlay p {
+  color: white;
 }
