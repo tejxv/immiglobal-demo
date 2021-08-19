@@ -4681,7 +4681,16 @@ footer {}
   font-size: 15px;
   line-height: 25px;
 }
-
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-body a {
+  color: #673ab7;
+  font-size: 1em;
+  font-weight: bold;
+}
 /*related-case-study*/
 
 .bd-case-study {
