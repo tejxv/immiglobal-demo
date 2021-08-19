@@ -7809,6 +7809,8 @@ button:active {
   position: absolute;
   pointer-events: none;
   text-align: left;
+  padding: 0em 2.5em;
+
 }
 .textOverlay h1 {
   color: white;
